@@ -7,9 +7,7 @@ A robust browser automation agent designed to interact with web pages programmat
 
 Watch the Browser Agent in action:
 
-<p align="center">
-    <video src="video/browser.mp4" controls width="600"></video>
-</p>
+https://github.com/user-attachments/assets/53c3ee65-a056-467f-ac01-f4bb9a623b51
 
 
 ## Features
