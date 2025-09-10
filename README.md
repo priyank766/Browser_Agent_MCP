@@ -2,6 +2,16 @@
 
 A robust browser automation agent designed to interact with web pages programmatically, exposed via a FastAPI web interface. This project leverages Playwright for browser control and `mcp-agent` for core agent functionalities, providing a powerful and flexible solution for web scraping, automated testing, and other browser-based tasks.
 
+
+## Demo
+
+Watch the Browser Agent in action:
+
+<p align="center">
+    <video src="video/browser.mp4" controls width="600"></video>
+</p>
+
+
 ## Features
 
 *   **MCP Support:** MCP from playwright
@@ -19,25 +29,23 @@ To set up the Browser Agent, follow these steps:
     cd browser-agent
     ```
 
-2.  **Install `uv` (if you don't have it):**
-    `uv` is a fast Python package installer and resolver.
-    ```bash
-    pip install uv
-    ```
-
-3.  **Install dependencies:**
+2.  **Install dependencies:**
     ```bash
     uv add -r requirements.txt
     ```
+    OR
+     ```bash
+    pip install -r requirements.txt
+    ```
 
-4.  **Check Node and NPM:**
+3.  **Check Node and NPM:**
 
     ```bash
     1. node --version
     2. npm --version
     ```
 
-5. **Paste API Keys**
+4. **Paste API Keys**
 
     Paste Google API Key in `mcp_agent.secrets.yaml`
     Choose Model IN `mcp_agents.config.yaml`
